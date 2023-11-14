@@ -5,7 +5,7 @@ import { View, Text, StyleSheet } from "react-native";
 export default function Landing({navigation}){
     return(
         <View style={styles.container} >
-            <Text style={styles.text}>Landing Page</Text>
+            <Text style={styles.text}>Landing Page View</Text>
             <Button title="go to home" onPress={()=>navigation.navigate("Home")}></Button>
         </View >
     )
